@@ -1,0 +1,111 @@
+/* Default CSS */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+/* Default CSS */
+
+/* Top menu */
+.container {
+    width: 100%;
+}
+.row.row-top-header {
+    background: #1299e8;
+    padding: 10px 0;
+}
+.context {
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.col.col-left {
+    width: calc(20% - 40px/3);
+}
+.col.col-mid {
+    width: calc(50% - 40px/3);
+}
+.search-wraper form {
+    display: flex;
+}
+input.search-input {
+    width: 90%;
+    border: 1px solid #ddd;
+    height: 35px;
+    padding: 0 10px;
+}
+button.search-btn {
+    width: 10%;
+    border: 1px solid #ddd;
+    border-left: none;
+    background: #e2f4ff;
+    height: 35px;
+    font-size: 17px;
+    color: #1299e8;
+}
+.col.col-Right {
+    width: calc(30% - 40px/3);
+}
+ul.top-menu {
+    display: flex;
+}
+ul.top-menu li a {
+    padding: 8px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .3s ease-in-out;
+}
+/* Top menu */
+
+/* Main menu CSS */
+.col.col-main-left {
+    width: calc(25% - 20px/2);
+}
+.col.col-main-right {
+    width: calc(75% - 20px/2);
+}
+ul.main-menu li a {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    display: block;
+    color: #000;
+}
+ul.main-menu {
+    background: #f5f5f5;
+    padding: 20px;
+    height: 300px;
+}
+.banner-wraper {
+    height: 300px;
+}
+.row.row-main-header {
+    background: #f5f5f5;
+}
+ul.top-menu {
+    display: flex;
+    padding: 0 5px;
+}
+ul.top-menu li a:hover {
+    background: #024f7c;
+}
+/* Main menu CSS */
